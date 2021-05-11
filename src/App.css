@@ -1,17 +1,27 @@
 .App {
   text-align: center;
+  position: relative;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  position: absolute;
+  animation: App-logo-spin infinite 1s linear;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ショートハンドか単位つきのCSSをJSで書けたら対応 */
+/* .App-logo-4 {
+  animation: App-logo-spin infinite 1s linear alternate;
 }
+
+.App-logo-5 {
+  animation: App-logo-spin infinite 0.5s linear;
+}
+
+.App-logo-6 {
+  animation: App-logo-spin infinite 1s reverse;
+} */
 
 .App-header {
   background-color: #282c34;

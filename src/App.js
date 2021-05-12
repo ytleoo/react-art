@@ -3,9 +3,6 @@ import './App.css';
 import Random from "./components/rand";
 
 function App() {
-  let svgSize = Math.floor(Math.random() * 500 + 100);
-  let svgTop = Math.floor(Math.random() * 500);
-  let svgLeft = Math.floor(Math.random() * 1000);
   //配列の個数をらんだむにしたい
   const svgCount = [0,1,2,3,4,5,6,7,8,9,10];
   return (

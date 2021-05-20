@@ -23,7 +23,6 @@ function App() {
         {svgCount.map((count) => (
            <Random svgCount={count}/>
         ))}
-
       </header>
     </div>
   );
